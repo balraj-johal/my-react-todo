@@ -5,9 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const TASKDATA = [
-  { id: "todo-0", name: "tutti", completed: true },
-  { id: "todo-1", name: "Drink", completed: false },
-  { id: "todo-2", name: "Sleep", completed: false }
+  { id: "todo-0", name: "tutti", completed: true, due: 'December 12, 2020 23:24:00', duration: 30 }
 ]
 
 ReactDOM.render(
